@@ -1,0 +1,30 @@
+input{
+    background-color: rgb(161, 107, 49);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.precentacion{
+    width: 1350px;
+    background-color: rgb(161, 107, 49);
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.precentacion div{
+    float: left;
+    background-color: transparent;
+    border: 3px solid black;
+}
+.PROYECTOS{
+    display: grid;
+    height: 100%;
+    float: left;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+#relleno{
+    background-color: rgb(206, 185, 148);
+    background-image: url("C:\wamp64\www\Fox\imagenes\top secret.png");
+    grid-column: 1/span3;
+    color: rgb(94, 69, 50);
+}

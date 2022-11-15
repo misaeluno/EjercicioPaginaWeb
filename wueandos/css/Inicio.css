@@ -1,0 +1,17 @@
+.Contenido {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    background-color: rgb(161, 107, 49);
+}
+.Contenido div{
+    gap: 5px;
+    border: 2px solid black;
+}
+
+#datos{
+    background-color: rgb(206, 185, 148);
+    grid-column: 1/span 2;
+    font-size: 15px;
+    font-style: italic;
+}

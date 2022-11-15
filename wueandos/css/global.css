@@ -1,0 +1,196 @@
+body{
+    background-color: rgb(74, 28, 22);
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 13% 70% 13%;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.barra{
+    background-color: rgb(101, 36, 28);
+    padding: 5px;
+    width: 1350px;
+    grid-column: 1/span3;
+}
+.barra div{
+    display: flex;
+    float: left ;
+    flex-direction: row;
+    background-color: rgb(44, 56, 52);
+    padding: 2px;
+    margin-left: 150px;
+    margin-right: 100px;
+    text-align: center;
+    border: 3px solid rgb(206, 185, 148);
+}
+p{
+    font-family: fantasy;
+}
+
+.Boton{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: rgb(161, 107, 49);
+    letter-spacing: 4px;
+    font-size: 15px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.Boton:hover{
+    background-color: goldenrod;
+    box-shadow: 0 0 10px goldenrod, 0 0 40px goldenrod, 0 0 80px goldenrod;
+    transition-delay: 1s;
+}
+.Boton span{
+    position: absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,goldenrod);
+}
+.Boton:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,goldenrod);
+}
+.Boton:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#span2{
+    top: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(1800deg,transparent,goldenrod);
+}
+.Boton:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(360deg,transparent,goldenrod);
+}
+.Boton:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+
+
+.contenedor>*{
+    text-align: center;
+}
+
+header, footer{
+    float: left;
+    background-color: rgb(101, 36, 28);
+    padding: 5px;
+    width: 1350px;
+    grid-column: 1/span3;
+}
+
+.NAVEGACION{
+    grid-template-columns: auto auto auto;
+    background-color: black;
+    padding: 1px;
+    float: right;
+}
+
+aside{
+    grid-column: 1/span3;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 433px 433px 433px;
+    float: left;
+    gap: 15px;
+}
+#izquierda{
+    justify-content: start;
+}
+#derecha{
+    justify-content: right;
+}
+footer div{
+    font-size: 15px;
+}
+
+
+.link div{
+    display: flex;
+    float: left ;
+    flex-direction: row;
+    padding: 2px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+
+.icons{
+    display: flex;
+    column-gap: 25px;
+}
+.icon{
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 26px;
+    color: rgb(206, 185, 148);
+    border-radius: 50%;
+    outline: 2px solid rgb(206, 185, 148);
+    transition-property: outline-offset, outline-color, background-color;
+    transition-duration: 0.25s;
+}
+.icon:hover{
+    outline-offset: 4px;
+}
+.icon:hover{
+    animation: shake 0.25s;
+}
+.icon-discord:hover{
+    background-image: radial-gradient(circle at 30% 107% yellow 0%,
+                                    gold 5%, gold 45%, 
+                                    goldenrod 60%, rgb(161, 107, 49) 90%);
+    outline-color: rgb(161, 107, 49);
+}
+.icon-instagram:hover{
+    background-color: rgb(206, 185, 148);
+    outline-color: rgb(161, 107, 49);
+}
+@keyframes shake{
+    10%{transform: rotate(15deg);}
+    20%{transform: rotate(-15deg);}
+    30%{transform: rotate(15deg);}
+    40%{transform: rotate(-15deg);}
+}
+
+

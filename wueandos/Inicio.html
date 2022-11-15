@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iniciot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" 
+    crossorigin="anonymous">
+
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+
+    <link rel="stylesheet" href="css\global.css">
+    <link rel="stylesheet" href="css\Inicio.css">
+
+
+</head>
+<body>
+    
+    <div class="contenedor">
+        <header>
+            <!-- Fixed navbar -->
+            <nav class="navbar navbar-expand-md navbar fixed-top bg" style="background-color: rgb(101, 36, 28);">
+              <div class="container-fluid">
+                <a class="navbar-brand" 
+                href="https://www.youtube.com/channel/UCBHlx7pl3584Qfv4pi-HX8A" 
+                >WueanduS en Full HK</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                      <div><a aria-current="page" href="Inicio.html" 
+                        class="Boton" style="background-color: rgb(44, 56, 52);margin: 2px;">
+                        <span id="span1"></span>
+                        <span id="span2"></span>
+                        <span id="span3"></span>
+                        <span id="span4"></span>
+                        <h5>ESTAS AQUI</h5>
+                      </a></div>
+
+
+                    </li>
+                    <li class="nav-item">
+                        <div><a href="inicioSecion.php" 
+                            class="Boton" style="background-color: rgb(44, 56, 52);margin: 2px;">
+                            <span id="span1"></span>
+                            <span id="span2"></span>
+                            <span id="span3"></span>
+                            <span id="span4"></span>
+                            <h5>Sesison</h5>
+                          </a></div>
+                    </li>
+                    <li class="nav-item">
+                        <div><a href="contancto.html" class="Boton" 
+                            style="background-color: rgb(44, 56, 52);margin: 2px;">
+                            <span id="span1"></span>
+                            <span id="span2"></span>
+                            <span id="span3"></span>
+                            <span id="span4"></span>
+                            <h5>Contacto</h5>
+                          </a></div>
+                    </li>
+                  </ul>
+                        
+                </div>
+              </div>
+            </nav>
+          </header>
+        <!-------------------------------------------------------------------------->
+
+
+        <!-------------------------------LOGO--------------------------------------->
+        <aside style="padding-top: 100px;">
+            <main class="container">
+                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="imagenes\pruebapaintstol.jpg" class="bd-placeholder-img" width="100%" height="350px" 
+                    xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" 
+                    focusable="false">
+                    </div>
+                    
+                    <div class="carousel-item active">
+                    <img src="imagenes\WueandusEnFullHK.jpg" class="bd-placeholder-img" width="100%" height="350px" 
+                    xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" 
+                    focusable="false">
+                    </div>
+                    
+                    <div class="carousel-item active">
+                    <img src="imagenes\maestros_pokemon.jpg" class="bd-placeholder-img" width="100%" height="350px" 
+                    xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" 
+                    focusable="false">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+            </main>
+        </aside>
+        <!-------------------------------------------------------------------------->
+
+
+        <!--------------------IZQUIERDA--------------------------------------------->
+        <div id="izquierda"><img src="imagenes\Player_Walking-export.gif" style="width: 100%; height: 100%;"></div>
+        <!-------------------------------------------------------------------------->
+        
+
+        <!-----------------------CENTRO--------------------------------------------->
+        <div class="Contenido">
+            <div id="Video"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/tOadTZoqjEM" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe></div>
+            <div id="imagen"><img src="imagenes\SinTítulo.png" style="width: 100%; height: 150px;"></div>
+            
+            <div id="datos"><br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt error unde quis consequatur. 
+                Earum corrupti ut illo doloremque ab rerum ad minus, in est praesentium pariatur, dolorum natus nemo ratione!<br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt error unde quis consequatur. 
+                Earum corrupti ut illo doloremque ab rerum ad minus, in est praesentium pariatur, dolorum natus nemo ratione!<br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt error unde quis consequatur. 
+                Earum corrupti ut illo doloremque ab rerum ad minus, in est praesentium pariatur, dolorum natus nemo ratione!<br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt error unde quis consequatur. 
+                Earum corrupti ut illo doloremque ab rerum ad minus, in est praesentium pariatur, dolorum natus nemo ratione!<br></div>
+        </div>
+        <!-------------------------------------------------------------------------->
+
+
+        <!---------------------DERECHA---------------------------------------------->
+        <div id="derecha"><img src="imagenes\dragon_mira_izquierda.gif" style="width: 100%; height: 100%;"></div>
+        <!-------------------------------------------------------------------------->
+
+
+        <!--------------------------FINAL------------------------------------------->
+        <footer>
+            <div><h6>Misaeluno@gmail.com<br>
+                misael Gallardo<br>
+                +56957357854<br>
+                Copiapo</h6>
+            </div>
+            <div><h6>Todos los derechos reservador por la "Ley N° 17.336 de Propiedad Intelectual<br> 
+                y Derecho de Autor"</h6>
+            </div>
+            <div class="link">
+                <div class="icons">
+                    <a href="https://discord.gg/2WvvrE4r" target="_blank"
+                        class="icon icon-discord">
+                        <img src="imagenes\discord.png" style="width: 40px;height: 30px;">
+                        <i class="ri-discord-line"></i>
+                    </a>
+                </div>
+                <div class="icons">
+                    <a href="#" target="_blank"
+                    class="icon icon-instagram">
+                    <img src="imagenes\instagram.png" style="width: 40px;height: 30px;">
+                    <i class="ri-instagram-line"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <!-------------------------------------------------------------------------->
+    </div>
+
+
+</body>
+</html>
